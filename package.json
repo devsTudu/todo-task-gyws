@@ -1,0 +1,25 @@
+{ 
+  "engines": {
+    "node": "14.x"
+  },
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Work through",
+  "main": "app.js",
+  "scripts": {
+    "build": "bower install && grunt build",
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Todo",
+    "app"
+  ],
+  "author": "Debasish",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
